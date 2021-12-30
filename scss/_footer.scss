@@ -1,0 +1,14 @@
+.footer{
+    background-color: $color1 !important;
+    background-image: linear-gradient(to right, $color1, $color2);
+    display: flex;
+    flex-wrap: wrap;
+    & li{
+        font-size: 15px;
+        list-style: none;
+        padding: 10px;
+        color: $color3;
+        font-size: large;
+        font-weight: bold;
+    }
+}

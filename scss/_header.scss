@@ -1,0 +1,11 @@
+header{
+    & .navbar{
+        background-color: $color1 !important;
+        background-image: linear-gradient(to right, $color1, $color2);
+        & .nav-link{
+            color: $color3 !important;
+            font-weight: bold;
+            font-size: large;
+        }
+    }
+}

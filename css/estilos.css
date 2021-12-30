@@ -1,0 +1,70 @@
+header .navbar {
+  background-color: lightcoral !important;
+  background-image: linear-gradient(to right, lightcoral, coral);
+}
+header .navbar .nav-link {
+  color: black !important;
+  font-weight: bold;
+  font-size: large;
+}
+
+main {
+  margin-top: 20px;
+}
+main .encabezado {
+  background-image: url(../images/fondo2.jpg);
+  margin: 10px;
+}
+main .encabezado h1 {
+  font-family: sans-serif;
+  color: black;
+  font-size: 50px;
+  font-weight: bold;
+  flex-wrap: wrap;
+}
+main .seccion {
+  background-color: lightcoral;
+  background-image: linear-gradient(to right, lightcoral, coral);
+}
+main aside {
+  background-image: url(../images/fondo1.jpg);
+  background-size: cover;
+  height: 620px;
+}
+
+main .titulo {
+  margin-top: 20px;
+  background-color: lightcoral;
+  background-image: linear-gradient(to left, lightcoral, coral);
+}
+main .titulo h2 {
+  text-align: center;
+}
+main .imagen {
+  margin-top: 5px;
+}
+main .imagen :hover {
+  transform: scaleY(1.2);
+}
+
+.footer {
+  background-color: lightcoral !important;
+  background-image: linear-gradient(to right, lightcoral, coral);
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer li {
+  font-size: 15px;
+  list-style: none;
+  padding: 10px;
+  color: black;
+  font-size: large;
+  font-weight: bold;
+}
+
+/*body*/
+body {
+  background-color: #e7d6d6;
+}
+
+/*# sourceMappingURL=estilos.css.map */

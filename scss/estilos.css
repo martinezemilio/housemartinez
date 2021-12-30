@@ -1,0 +1,87 @@
+header .navbar {
+  background-color: lightcoral !important;
+  background-image: -webkit-gradient(linear, left top, right top, from(lightcoral), to(coral));
+  background-image: linear-gradient(to right, lightcoral, coral);
+}
+
+header .navbar .nav-link {
+  color: black !important;
+  font-weight: bold;
+  font-size: large;
+}
+
+main {
+  margin-top: 20px;
+}
+
+main .encabezado {
+  background-image: url(../images/fondo2.jpg);
+  margin: 10px;
+}
+
+main .encabezado h1 {
+  font-family: sans-serif;
+  color: black;
+  font-size: 50px;
+  font-weight: bold;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main .seccion {
+  background-color: lightcoral;
+  background-image: -webkit-gradient(linear, left top, right top, from(lightcoral), to(coral));
+  background-image: linear-gradient(to right, lightcoral, coral);
+}
+
+main aside {
+  background-image: url(../images/fondo1.jpg);
+  background-size: cover;
+  height: 620px;
+}
+
+main .titulo {
+  margin-top: 20px;
+  background-color: lightcoral;
+  background-image: -webkit-gradient(linear, right top, left top, from(lightcoral), to(coral));
+  background-image: linear-gradient(to left, lightcoral, coral);
+}
+
+main .titulo h2 {
+  text-align: center;
+}
+
+main .imagen {
+  margin-top: 5px;
+}
+
+main .imagen :hover {
+  -webkit-transform: scaleY(1.2);
+          transform: scaleY(1.2);
+}
+
+.footer {
+  background-color: lightcoral !important;
+  background-image: -webkit-gradient(linear, left top, right top, from(lightcoral), to(coral));
+  background-image: linear-gradient(to right, lightcoral, coral);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.footer li {
+  font-size: 15px;
+  list-style: none;
+  padding: 10px;
+  color: black;
+  font-size: large;
+  font-weight: bold;
+}
+
+/*body*/
+body {
+  background-color: #e7d6d6;
+}
+/*# sourceMappingURL=estilos.css.map */

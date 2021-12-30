@@ -1,0 +1,16 @@
+main{
+    & .titulo{
+        margin-top: 20px;
+        background-color: $color1;
+        background-image: linear-gradient(to left, $color1, $color2);
+        & h2{
+            text-align: center;
+        }
+    }
+    & .imagen{
+        margin-top: 5px;
+    }
+    & .imagen :hover{
+        transform: scaleY(1.2);
+    }
+}
